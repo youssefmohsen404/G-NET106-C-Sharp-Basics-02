@@ -96,8 +96,18 @@ namespace G_NET106_C_Basics_02
             Console.WriteLine(stringPages.GetType());*/
 
 
-            
 
+
+            #endregion
+            #region Question10
+            //Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int variable, and print both.
+            //boxing
+           /* object copies = 100;
+            //unboxing
+             
+            int intCopies = (int)copies;
+            Console.WriteLine(copies);
+            Console.WriteLine(intCopies);*/
             #endregion
         }
     }
