@@ -55,6 +55,12 @@
             double doublePages = pages;
 */
             #endregion
+            #region Question6
+            //Declare a double price = 49.99; then convert it into an int using a cast.
+            /*double price = 49.99;
+            //explicit casting
+            int intPrice = (int)price;*/
+            #endregion
         }
     }
 }
