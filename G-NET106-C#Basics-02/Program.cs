@@ -48,6 +48,13 @@
                 Console.WriteLine("Done");
             }*/
             #endregion
+            #region Question5
+            //Declare an int pages = 300; then store it in a double variable without using a cast.
+            /*int pages = 300;
+            //implicit casting
+            double doublePages = pages;
+*/
+            #endregion
         }
     }
 }
