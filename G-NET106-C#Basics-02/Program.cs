@@ -61,6 +61,12 @@
             //explicit casting
             int intPrice = (int)price;*/
             #endregion
+            #region Question7
+            //Given string pagesText = "464";, convert it into an int using the Convert class.
+            /*string pagesText = "464";
+            int pages = Convert.ToInt32(pagesText);*/
+
+            #endregion
         }
     }
 }
