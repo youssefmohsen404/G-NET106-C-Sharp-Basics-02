@@ -25,10 +25,28 @@
             #region Question3
             //Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
             //int pages = "464"; ---------------->compile-time error
-            
+
             /*int pages = 464;
             string pages = "464";*/
 
+            #endregion
+            #region Question4
+            //Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot divide by zero", and then prints "Done" in a finally block.
+            /*int firstNumber = 10;
+            int secondNumber = 0;
+            try
+            {
+                double result = firstNumber / secondNumber;
+                Console.WriteLine(result);
+            }catch(DivideByZeroException ex)
+            {
+                //Console.WriteLine(ex.Message);
+                Console.WriteLine("cannot divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }*/
             #endregion
         }
     }
